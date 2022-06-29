@@ -6,7 +6,7 @@
 }
 
 body {
-  background: orange;
+  background: #3498db;
   font-family: "Nunito", sans-serif;
 }
 
@@ -31,7 +31,7 @@ body {
 
 .add-note-btn {
   all: unset;
-  background: orange;
+  background: #3498db;
   border-radius: 100%;
   position: fixed;
   top: 85%;
@@ -127,11 +127,11 @@ hr {
   top: 30px;
   left: 20px;
   width: 200px;
-  caret-color: orange;
+  caret-color: #3498db;
 }
 
 .note-title-input {
-  color: orange;
+  color: #3498db;
   padding: 2%;
   top: 50px;
   left: 20px;

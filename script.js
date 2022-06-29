@@ -50,7 +50,7 @@ function showNotes() {
     <p class="note-body">${note.description}</p>
     <hr>
     <p class="date">${note.date}</p>
-    <i onclick="showMenu(this)" class="fa-solid fa-ellipsis"></i>
+    <i onclick="showMenu(this)" class="fa-solid fa-ellipsis"></i> 
     <div class="settings">
     <div class="menu">
     <span class="edit-btn" onclick="editNote(${index},'${note.title}','${filtDesc}')"><i class="fa-solid fa-pen"></i></span>
