@@ -48,9 +48,9 @@ body {
 
 .note {
   height: 110px;
-  width: 90%;
+  width: 95%;
   position: relative;
-  top: 60px;
+  top: 65px;
   left: 50%;
   transform: translate(-50%, -50%);
   background: white;
@@ -82,11 +82,11 @@ body {
 .date,
 .fa-ellipsis {
   position: absolute;
-  left: 17%;
+  left: 18%;
   bottom: 0;
   transform: translate(-50%, -50%);
   color: gray;
-  font-size: 17px;
+  font-size: 13px;
 }
 
 hr {
@@ -101,12 +101,13 @@ hr {
 }
 
 .edit-note {
+  padding: 5%;
   height: 500px;
   width: 100%;
   background: white;
   position: absolute;
   top: 50%;
-  left: 100%;
+  left: 150%;
   transform: translate(-50%, -50%);
   z-index: 1;
   transition: all 0.2s;
@@ -130,18 +131,28 @@ hr {
 }
 
 .note-title-input {
+  color: orange;
+  padding: 2%;
   top: 50px;
   left: 20px;
-  font-size: 30px;
+  text-transform: capitalize;
+  font-size: 25px;
   height: 45px;
   font-weight: bold;
   overflow: hidden;
+  border: none;
+  outline: none;
 }
 
 .note-body-input {
+  padding: 2%;
   top: 55px;
   margin-bottom: 10px;
   height: 380px;
+  width: 100%;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
 }
 
 ::placeholder {
